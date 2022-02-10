@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+/* body{
+  background-image: url(images/second.png) ;background-repeat: no-repeat;
+
+  
+} */
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.navigation{
+  background-color: white;
+  color: black;
+  margin-top: 1rem;
+  display: block;
+}
+#Neatly {
+  display: flex;
+  justify-content: space-around;
+  gap: 55rem;
+  padding: 2rem 0 2rem 0;
+  
+  
+}
+.navbar ul{
+  display: flex;
+  gap: 2rem;
+}
+.search {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.los {
+  display: flex;
+  gap: 2rem;
+}
+.button {
+  display: flex;
+  gap: 2rem;
+}
+.btn-secondary{
+  display: flex;
+  gap: 2rem;
+  
+}
+#signin{
+  padding-right: 4rem;
+  padding-left: 0rem;
+  border: none;
+}
+
+/*--------------- first section-------------------- */
+
+
+.firstsec{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vw;
+}
+
+.container{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 40vw;
+  height: 80rem;
+  padding:0 0 20rem 0;
+  
+}
+
+
+
+/*--------------- second section-------------------- */
+
+
+.secondsec{
+  display: flex;
+  background-color: white;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+.sec_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 33vw;
+  /* margin-top: 0.5rem; */
+  height: 20rem;
+  padding: auto;
+}
+
+
+/*--------------- Third section-------------------- */
+
+
+.thirdsec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(images/first.png);
+}
+.third_container{
+  width: 35rem;
+  
+}
+
+
+/*--------------- fourth section-------------------- */
+
+
+.fourthsec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+  
+}
+.fourth_container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+.fourth_heading{
+  width: 33vw;
+}
+
+
+/* ----------------footer----------------------------- */
+
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  width: 100vw;
+  
+}
+.foot_1 ul{
+  padding: auto;
+}
