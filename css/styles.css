@@ -1,13 +1,9 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-/* body{
-  background-image: url(images/second.png) ;background-repeat: no-repeat;
 
-  
-} */
 
 li{
   list-style: none;
@@ -18,13 +14,13 @@ a{
 .navigation{
   background-color: white;
   color: black;
-  margin-top: 1rem;
-  display: block;
+  margin-top: 5px
+  
 }
 #Neatly {
   display: flex;
   justify-content: space-around;
-  gap: 55rem;
+  gap:45rem;
   padding: 2rem 0 2rem 0;
   
   
@@ -40,7 +36,7 @@ a{
 }
 .los {
   display: flex;
-  gap: 2rem;
+  /* gap: 2rem; */
 }
 .button {
   display: flex;
@@ -56,6 +52,10 @@ a{
   padding-left: 0rem;
   border: none;
 }
+/* search box -------------------------------- */
+#search-box input {
+  width: 65rem;
+}
 
 /*--------------- first section-------------------- */
 
@@ -66,7 +66,7 @@ a{
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 80vw;
+  /* height: 80vw; */
 }
 
 .container{
@@ -77,8 +77,9 @@ a{
   align-items: center;
   gap: 1rem;
   width: 40vw;
-  height: 80rem;
-  padding:0 0 20rem 0;
+  padding-bottom: 4rem;
+  /* height: 80rem; */
+  /* padding:0 0 20rem 0; */
   
 }
 
@@ -94,6 +95,7 @@ a{
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 4rem 0 4rem 0;
   
   
 }
@@ -104,8 +106,6 @@ a{
   align-items: center;
   gap: 3rem;
   width: 33vw;
-  /* margin-top: 0.5rem; */
-  height: 20rem;
   padding: auto;
 }
 
@@ -119,9 +119,12 @@ a{
   align-items: center;
   text-align: center;
   background-image: url(images/first.png);
+  margin: 4rem 0 4rem 0;
+  height: 45vh;
 }
 .third_container{
   width: 35rem;
+  color: white;
   
 }
 
@@ -129,7 +132,7 @@ a{
 /*--------------- fourth section-------------------- */
 
 
-.fourthsec{
+.fourthsec{ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,7 +150,7 @@ a{
 }
 .fourth_heading{
   width: 33vw;
-}
+} 
 
 
 /* ----------------footer----------------------------- */
@@ -158,9 +161,12 @@ a{
   justify-content: space-around;
   align-items: center;
   text-align: left;
-  width: 100vw;
+  height: 40vh;
+
+  background-color: white;
   
 }
 .foot_1 ul{
   padding: auto;
+  
 }

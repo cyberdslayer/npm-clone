@@ -13,7 +13,6 @@
 	text-align: right;
 	text-indent: 0px;
 	text-transform: none;
-	vertical-align: baseline;
 	white-space: nowrap;
 	word-spacing: 0px;
 
@@ -25,20 +24,6 @@
 	background-repeat: repeat;
 	color: rgb(0, 0, 0);
 
-	/* Box */
-	/* height: 36.0909px;
-	width: 133.6136px;
-	border: 0px none rgb(0, 0, 0);
-	border-top: 0px none rgb(0, 0, 0);
-	border-right: 0px none rgb(0, 0, 0);
-	border-bottom: 0px none rgb(0, 0, 0);
-	border-left: 0px none rgb(0, 0, 0);
-	margin: 0px;
-	padding: 10px;
-	max-height: none;
-	min-height: 0px;
-	max-width: none;
-	min-width: 0px; */
 
 	/* Positioning */
 	position: relative;
@@ -71,7 +56,6 @@
 	/* Effects */
 	transform: none;
 	transition: opacity 0.15s ease-in 0s;
-	outline: rgb(255, 0, 0) dashed 1px;
 	outline-offset: 0px;
 	box-sizing: border-box;
 	resize: none;
@@ -92,18 +76,7 @@
 	/* Font & Text */
 	font-family: Poppins;
 	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 700;
-	letter-spacing: 0.3px;
-	line-height: 16.1px;
-	text-decoration: none solid rgb(255, 255, 255);
-	text-align: center;
-	text-indent: 0px;
-	text-transform: none;
-	vertical-align: baseline;
-	white-space: normal;
-	word-spacing: 0px;
+	
 
 	/* Color & Background */
 	background-attachment: scroll;
@@ -130,7 +103,7 @@
 	min-width: auto;
 
 	/* Positioning */
-	/* position: static;
+	position: static;
 	top: auto;
 	bottom: auto;
 	right: auto;
@@ -138,7 +111,7 @@
 	float: none;
 	display: block;
 	clear: none;
-	z-index: auto; */
+	z-index: auto;
 
 	/* List */
 	list-style-image: none;
@@ -160,7 +133,6 @@
 	/* Effects */
 	transform: none;
 	transition: all 0s ease 0s;
-	outline: rgb(255, 0, 0) dashed 1px;
 	outline-offset: 0px;
 	box-sizing: border-box;
 	resize: none;
@@ -187,7 +159,6 @@
 	text-align: right;
 	text-indent: 0px;
 	text-transform: none;
-	vertical-align: baseline;
 	white-space: nowrap;
 	word-spacing: 0px;
 
@@ -245,7 +216,6 @@
 	/* Effects */
 	transform: none;
 	transition: all 0s ease 0s;
-	outline: rgb(255, 0, 0) dashed 1px;
 	outline-offset: 0px;
 	box-sizing: border-box;
 	resize: none;
@@ -300,17 +270,7 @@
 	max-width: none;
 	min-width: auto;
 
-	/* Positioning */
-	/* position: static;
-	top: auto;
-	bottom: auto;
-	right: auto;
-	left: auto;
-	float: none;
-	display: block;
-	clear: none;
-	z-index: auto; */
-    
+	
 
 	/* List */
 	list-style-image: none;
@@ -417,7 +377,6 @@
 	/* Effects */
 	transform: none;
 	transition: all 0s ease 0s;
-	outline: rgb(255, 0, 0) dashed 1px;
 	outline-offset: 0px;
 	box-sizing: border-box;
 	resize: none;
@@ -460,7 +419,7 @@
 
 	/* Box */
 	height: 42.1px;
-	width: 970.65px;
+	width: 2000.65px;
 	border: 0px none rgb(0, 0, 0);
 	border-top: 0px none rgb(0, 0, 0);
 	border-right: 0px none rgb(0, 0, 0);
@@ -504,8 +463,6 @@
 	/* Effects */
 	transform: none;
 	transition: opacity 0.15s ease-in 0s;
-	outline: rgb(255, 0, 0) dashed 1px;
-	outline-offset: 0px;
 	box-sizing: border-box;
 	resize: none;
 	text-shadow: none;
@@ -594,7 +551,6 @@
 	/* Effects */
 	transform: none;
 	transition: all 0s ease 0s;
-	outline: rgb(255, 0, 0) dashed 1px;
 	outline-offset: 0px;
 	box-sizing: border-box;
 	resize: none;

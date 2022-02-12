@@ -6,13 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="copy.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
-<body >
+<body style="background-image: url(images/second.png); background-repeat: no-repeat; image-rendering: optimizeSpeed;">
     <div>
         <div class="navigation">
             <div id="Neatly">
@@ -27,7 +31,8 @@
                 <div>
                     <nav class="navbar">
                         <ul>
-                            <li> <a href="https://www.npmjs.com/products/teams" target="blank" rel="noopener noreferrer">Product</a> </li>
+                            <li> <a href="https://www.npmjs.com/products/teams" target="blank"
+                                    rel="noopener noreferrer">Product</a> </li>
                             <li> <a href="https://www.npmjs.com/products">Pricing</a> </li>
                             <li> <a href="https://docs.npmjs.com/">Documentation</a> </li>
                             <li> <a href="https://npm.community/">Community</a> </li>
@@ -38,9 +43,14 @@
             <hr>
             <div class="search">
                 <div class="los">
-                   <h1 class="logo">npm</h1>
-                    <input type="text" placeholder="Search Packages">
-                    <button class="btn-c">Search</button>
+                    <div>
+                        <h1 class="logo">npm</h1>
+                    </div>
+                    <div id="search-box">
+                        <input type="text" placeholder="Search Packages">
+                    </div>
+                    <div><button class="btn-c">Search</button></div>
+
                 </div>
                 <div class="buttons">
                     <button>Sign Up </button>
@@ -49,7 +59,7 @@
             </div>
             <hr>
         </div>
-        <section class="firstsec" >
+        <section class="firstsec" style="background-image: url(images/second.png); background-repeat: no-repeat; ">
 
             <div class="container">
                 <div class="prh">
@@ -71,7 +81,7 @@
                 </div>
                 <div class="btn-secondary">
                     <div id="btn-box"><button class="btb-secondary-a">Sign Up for free</button></div>
-                <div id="btn-box"><button class="btb-secondary-b">Learn about pro</button></div>
+                    <div id="btn-box"><button class="btb-secondary-b">Learn about pro</button></div>
                 </div>
             </div>
         </section>
@@ -92,60 +102,76 @@
                 </div>
             </div>
         </section>
-        <section class="thirdsec">
+        <section class="thirdsec" style="background-image: url(images/first.png); background-repeat: no-repeat; ">
             <div class="third_container">
                 <div>
                     <h1 id="heading_2">We love open source</h1>
                 </div>
                 <div>
-                    <p>At npm, Inc., we're proud to dedicate teams of full-time employees to operating the npm Registry, enhancing the CLI, improving JavaScript security, and other projects that support and nurture a vibrant open source community.</p>
+                    <p>At npm, Inc., we're proud to dedicate teams of full-time employees to operating the npm Registry,
+                        enhancing the CLI, improving JavaScript security, and other projects that support and nurture a
+                        vibrant open source community.</p>
                 </div>
             </div>
         </section>
         <section class="fourthsec">
             <div class="fourth_container">
-                <div class="fourth_heading"><h1>Gratefully serving everyone from solo devs to the Fortune 500</h1></div>
+                <div class="fourth_heading">
+                    <h1>Gratefully serving everyone from solo devs to the Fortune 500</h1>
+                </div>
             </div>
         </section>
         <hr>
-        <footer>
-            <div class="footer">
-                <div class="foot_1">
-                    <ul>
-                        <li> <a href="https://github.com" target="_blank" rel="noopener noreferrer" ><i class="fa fa-github" ></i></a> </li>
-                        <li> <a href="https://github.com/npm" target="_blank" rel="noopener noreferrer"> <i class="fas fa-npm    "></i> </a> </li>
-                        
-                    </ul>
+        <div style="background-image:url(images/second.png)">
+            <footer>
+                <div class="footer">
+                    <div class="foot_1">
+                        <ul>
+                            <li> <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i
+                                        class="fa fa-github"></i></a> </li>
+                            <li> <a href="https://github.com/npm" target="_blank" rel="noopener noreferrer"> <i
+                                        class="fas fa-npm    "></i> </a> </li>
+
+                        </ul>
+                    </div>
+                    <div class="foot_2">
+                        <ul>
+                            <li>
+                                <h3>Support</h3>
+                            </li>
+                            <li> <a href="#">Help</a> </li>
+                            <li> <a href="#">Advisories</a> </li>
+                            <li> <a href="#">Status</a> </li>
+                            <li> <a href="#">Contact npm</a> </li>
+                        </ul>
+                    </div>
+                    <div class="foot_3">
+                        <ul>
+                            <li>
+                                <h3>Company</h3>
+                            </li>
+                            <li> <a href="#">Product</a> </li>
+                            <li> <a href="#">Pricing</a> </li>
+                            <li> <a href="#">Documentation</a> </li>
+                            <li> <a href="#">Community</a> </li>
+                        </ul>
+                    </div>
+                    <div class="foot_4">
+                        <ul>
+                            <li>
+                                <h3>Terms & Policies</h3>
+                            </li>
+                            <li> <a href="#">Product</a> </li>
+                            <li> <a href="#">Pricing</a> </li>
+                            <li> <a href="#">Documentation</a> </li>
+                            <li> <a href="#">Community</a> </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="foot_2">
-                    <ul>
-                        <li> <h3>Support</h3></li>
-                        <li> <a href="#">Help</a> </li>
-                        <li> <a href="#">Advisories</a> </li>
-                        <li> <a href="#">Status</a> </li>
-                        <li> <a href="#">Contact npm</a> </li>
-                    </ul>
-                </div>
-                <div class="foot_3">
-                    <ul>
-                        <li> <h3>Company</h3></li>
-                        <li> <a href="#">Product</a> </li>
-                        <li> <a href="#">Pricing</a> </li>
-                        <li> <a href="#">Documentation</a> </li>
-                        <li> <a href="#">Community</a> </li>
-                    </ul>
-                </div>
-                <div class="foot_4">
-                    <ul>
-                        <li> <h3>Terms & Policies</h3></li>
-                        <li> <a href="#">Product</a> </li>
-                        <li> <a href="#">Pricing</a> </li>
-                        <li> <a href="#">Documentation</a> </li>
-                        <li> <a href="#">Community</a> </li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
+
+
     </div>
 </body>
 
